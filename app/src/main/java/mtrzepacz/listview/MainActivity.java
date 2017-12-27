@@ -28,4 +28,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,SimpleItem.class);
         startActivity(intent);
     }
+
+    public void gotoTwoStringListView(View v)
+    {
+        Intent intent = new Intent(this,TwoStringItem.class);
+        startActivity(intent);
+    }
 }

@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".OneStringItem" />
-        <activity android:name=".SimpleItem"></activity>
+        <activity android:name=".SimpleItem" />
+        <activity android:name=".TwoStringItem"></activity>
     </application>
 
 </manifest>

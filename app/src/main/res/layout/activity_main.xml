@@ -37,6 +37,7 @@
 
     <Button
         android:id="@+id/button3"
+        android:onClick="gotoTwoStringListView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Two Strings Item"
