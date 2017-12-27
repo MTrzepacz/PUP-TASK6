@@ -19,7 +19,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void gotoOneStringListView(View v)
     {
-        Intent intent = new Intent(this,OneStringList.class);
+        Intent intent = new Intent(this,OneStringItem.class);
+        startActivity(intent);
+    }
+
+    public void gotoSimpleItemView(View v)
+    {
+        Intent intent = new Intent(this,SimpleItem.class);
         startActivity(intent);
     }
 }

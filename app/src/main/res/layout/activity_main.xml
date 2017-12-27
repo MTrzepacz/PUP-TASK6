@@ -23,6 +23,7 @@
 
     <Button
         android:id="@+id/button2"
+        android:onClick="gotoSimpleItemView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Simple Item Layout"
