@@ -34,4 +34,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,TwoStringItem.class);
         startActivity(intent);
     }
+
+    public void gotoCustomListView(View v)
+    {
+        Intent intent = new Intent(this,CustomItem.class);
+        startActivity(intent);
+    }
+
+
 }

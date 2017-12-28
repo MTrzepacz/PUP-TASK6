@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".OneStringItem" />
         <activity android:name=".SimpleItem" />
-        <activity android:name=".TwoStringItem"></activity>
+        <activity android:name=".TwoStringItem" />
+        <activity android:name=".CustomItem"></activity>
     </application>
 
 </manifest>

@@ -21,16 +21,7 @@ public class TwoStringItem extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_two_string_item);
         listView = (ListView) findViewById(R.id.ListView3);
-
         HashMap<String,String> testMap = new HashMap<String,String>();
-     /*   testMap.put("Line1","Hi");
-        testMap.put("Line2","Guys");
-        list.add(testMap);
-
-        testMap = new HashMap<String,String>();
-        testMap.put("Line1","SUP");
-        testMap.put("Line2","BOI");
-        list.add(testMap); */
        for(int i = 0 ; i < 20 ; i++)
        {
            testMap = new HashMap<String,String>();

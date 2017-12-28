@@ -51,6 +51,7 @@
 
     <Button
         android:id="@+id/button4"
+        android:onClick="gotoCustomListView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Custom"
